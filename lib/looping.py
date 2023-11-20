@@ -19,12 +19,12 @@ def square_integers(int_list):
 
 
 def fizzbuzz():
-    for number in range(1, 101):
-        if number % 3 == 0 and number % 5 == 0: # starts a for loop that iterates over the numbers from 1 to 100
+    for number in range(1, 101): # starts a for loop that iterates over the numbers from 1 to 100
+        if number % 3 == 0 and number % 5 == 0: 
             print("FizzBuzz") 
         elif number % 3 == 0:
             print("Fizz") 
         elif number % 5 == 0:
             print("Buzz") 
-        else:
+        else: # activated when none of the conditions in the previous lines of code are met
             print(number) 
